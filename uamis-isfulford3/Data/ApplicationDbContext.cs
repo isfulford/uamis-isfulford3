@@ -11,5 +11,6 @@ namespace uamis_isfulford3.Data
         {
         }
         public DbSet<uamis_isfulford3.Models.Actor> Actor { get; set; }
+        public DbSet<uamis_isfulford3.Models.Movie> Movie { get; set; }
     }
 }
